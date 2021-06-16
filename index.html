@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="input-area">
+      <input id="add-text" placeholder="TODOを入力" />
+      <button id="add-bottun">追加</button>
+    </div>
+    <div class="incomplete-area">
+      <p class="title">未完了のTODO</p>
+      <ul id="incomplete-list">
+        <li>
+          <div class="list-row">
+            <p>TODOです</p>
+            <button>完了</button>
+            <button>削除</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="complete-area">
+      <p class="title">完了したのTODO</p>
+      <ul id="complete-list">
+        <li>
+          <div class="list-row">
+            <p>TODOでした</p>
+            <button>戻す</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
